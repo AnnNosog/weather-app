@@ -1,0 +1,14 @@
+<div *ngIf="weather?.cityName!==''" class="main-weather">
+    <h1 class="city-name">Weather in {{weather?.cityName}}</h1>
+    <div class="temperature">
+      <div class="img">
+        <img src="https://openweathermap.org/img/w/{{weather?.icon}}.png" alt="">
+      </div>
+      <div>{{weather?.temp}}&deg;C</div>
+    </div>
+    <div class="weather-kind">{{weather?.weatherKing}}</div>
+    <div class="temp-diff">
+      <div class="temp-diff__val">Max: {{weather?.tempMax}}&deg;C</div>
+      <div class="temp-diff__val">Min: {{weather?.tempMin}}&deg;C</div>
+    </div>
+  </div>

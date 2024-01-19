@@ -1,0 +1,24 @@
+.city-name {
+    font: 600 24px/1.4 Oswald,Arial,sans-serif;
+    margin-top: 0;
+  }
+  .temperature {
+    font: 600 30px/1.4 Oswald,Arial,sans-serif;
+    display: flex;
+  }
+  .weather-kind {
+    margin: 0 0 10px;
+    font: 400 20px/1.4 Oswald,Arial,sans-serif;
+  }
+  .temp-diff {
+    display: flex;
+    justify-content: space-between;
+    &__val {
+      color: blue;
+      font: 300 18px/1.4 Oswald,Arial,sans-serif;
+    }
+  }
+  .main-weather {
+    padding: 15px;
+    background: #ddd;
+  }

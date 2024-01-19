@@ -1,0 +1,10 @@
+<div class="forecast-item">
+    <p class="day">{{day.day | date: 'MMM d'}}</p>
+    <div class="img">
+      <img src="https://openweathermap.org/img/w/{{day.icon}}.png" alt="">
+    </div>
+    <div class="temp">
+      <p>Max: {{day.tempMax}}&deg;C</p>
+      <p>Min: {{day.tempMin}}&deg;C</p>
+    </div>
+  </div>
